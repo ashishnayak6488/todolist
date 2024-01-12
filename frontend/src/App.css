@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.528);
+  color: azure;
+}
+.App{
+  width: 50%;
+  margin: auto;
+}
+
+.header{
+  font-size: 60px; 
+  text-align: center;
+}
+.form{
+
+  text-align: center;
+  margin: auto;
+}
+.input{
+  width: 100%;
+  padding: 6px;
+  background-color: rgba(0, 0, 0, 0.528);
+  color: azure;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(170, 149, 149);
+}
+
+.task{
+  background-color: rgb(34, 34, 73);
+  margin: 5px;
+  list-style: none;
+  padding: 15px;
+  width: 90%;
+  margin-right: 10%;
+}
+
+.task span{
+  color: white;
+  font-size: 20px;
+
+}
+
+.icons{
+  float: right;
+  margin: 5px;
+}
+
+.text-todo{
+  width: 85%;
+  font-size:  16px;
+  color:  white;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+article{
+  display: grid;
+}
+
+.button{
+  margin-left: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.528);
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button.selected{
+  color: bisque;
+  background-color: green;
+  height: 50px;
+}
+
+.button.clear{
+  float: right;
+  background-color: red;
+}
+
